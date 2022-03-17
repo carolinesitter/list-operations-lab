@@ -1,4 +1,7 @@
 """Utilities for manipulating lists."""
+# define input list outside of function
+input_list = input("> ")
+input_list = input.split(", ")
 
 
 def head(input_list):
