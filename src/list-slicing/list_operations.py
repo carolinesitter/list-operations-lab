@@ -176,8 +176,10 @@ def replace_middle(input_list):
     [0, 3, 42, 37, 24, 27]
 
     """
-
-    pass
+    
+    input_list[2:-2] = [42,37]
+   
+    
 
 
 def delete_third_and_seventh(input_list):
