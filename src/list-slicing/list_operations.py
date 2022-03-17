@@ -1,7 +1,8 @@
 """Utilities for manipulating lists."""
 # define input list outside of function
-input_list = input("> ")
-input_list = input.split(", ")
+# user_input = input("> ")
+# input_list = []
+# user_input = input_list.append(user_input)
 
 
 def head(input_list):
@@ -13,8 +14,9 @@ def head(input_list):
       'Jan'
     """
 
-    return []
+    return input_list[0]
 
+# print(head(input_list))
 
 def tail(input_list):
     """Return a new list of all items, excluding the first item.
@@ -26,7 +28,7 @@ def tail(input_list):
 
     """
 
-    return []
+    return 
 
 
 def last(input_list):
